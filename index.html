@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>主页</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style type="text/css">
+        .col-sm-2 span {
+            display: block;
+        }
+
+        .input3 {
+            position: absolute;
+            left: -260px;
+            top: 14px;
+        }
+
+        .img1 {
+            width: 550px;
+            height: 302px;
+        }
+
+        .img2,
+        .img3 {
+            width: 150px;
+            height: 102px
+        }
+
+
+        .span1 {
+            position: absolute;
+            left: 185px;
+            top: 14px;
+        }
+
+        .img4 {
+            width: 297px;
+            height: 249px;
+        }
+
+        #a1 a:hover {
+            background: firebrick;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-default " role="navigation">
+        <div class="navbar-header">
+            <a href="#" class="navbar-brand">下载app</a>
+        </div>
+        <div>
+            <ul class="nav navbar-nav navbar-left">
+                <li>
+                    <a href="#">北京</a>
+                </li>
+                <li>
+                    <a href="#">晴</a>
+                </li>
+                <li>
+                    <a>12°/24</a>
+                </li>
+                <li></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+
+                    <input class="input3" type="text" placeholder="搜索.." name="search">
+
+
+                </li>
+                <li>
+                    <a href="#">头条产品</a>
+                </li>
+
+                <li>
+                    <a href="#">侵权投诉</a>
+                </li>
+            </ul>
+            <div>
+
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-2">
+                <ul class="nav nav-pills nav-stacked ">
+                    <li id="a1">
+                        <a href="#">今日头条</a>
+                    </li id="a1">
+                    <li id="a1">
+                        <a href="#">推荐</a>
+                    </li>
+                    <li id="a1">
+                        <a href="#">阳光宽屏</a>
+                    </li>
+                    <li id="a1">
+                        <a href="#">今日头条</a>
+                    </li>
+                    <li id="a1">
+                        <a href="#">推荐</a>
+                    </li>
+                    <li id="a1">
+                        <a href="#">阳光宽屏</a>
+                    </li>
+                    <li id="a1">
+                        <a href="#">今日头条</a>
+                    </li>
+                    <li id="a1">
+                        <a href="#">推荐</a>
+                    </li>
+                    <li id="a1">
+                        <a href="#">阳光宽屏</a>
+                    </li>
+                    <li id="a1">
+                        <a href="#">推荐</a>
+                    </li>
+                    <li id="a1">
+                        <a href="#">阳光宽屏</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-6">
+                <div>
+                    <!--放图片 660 302  -->
+                    <img class="img1" id="img1" src="images/01.jpg" />
+                </div>
+
+                <ul class="list-group">
+                    <!--放图片 161 102  -->
+                    <li class="list-group-item">
+                        <img class="img2" src="images/01.jpg" />
+                        <span>
+                            <a>股票被套牢了，死拿还是补仓？</a>
+                        </span>
+                    </li>
+                    <!--放图片 660 302  -->
+                    <li class="list-group-item">
+                        <img class="img3" src="images/01.jpg" />
+                        <div class="span1 ">
+                            <span>
+                                <a>中国召回访美高级将领并拒绝美军舰访港？外交部明确回应</a>
+                            </span>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <img class="img2" src="images/01.jpg" />
+                        <div class="span1">
+                            <span>
+                                <a>中国召回访美高级将领并拒绝美军舰访港？外交部明确回应</a>
+                            </span>
+                        </div>
+                    </li>
+                    <!--放图片 660 302  -->
+                    <li class="list-group-item">
+                        <img class="img3" src="images/01.jpg" />
+                        <div class="span1">
+                            <span>
+                                <a>有福不会享、有钱不会花、有权不会用，她一生为国奉献却鲜为人知中国召回访美高级将领并拒绝美军舰访港？外交部明确回应</a>
+                            </span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-4">
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <form class="form-horizontal">
+                            <div class="form-group">
+                                <label for="firstname" class="col-sm-3 control-label">用户名</label>
+                                <input type="text" name="username" class="form-control col-sm-7">
+                                <label class="col-sm-3 control-label">密码</label>
+                                <input type="passwor" name="password" class="form-control">
+                                <!-- <button value="登入" type="submit">登入</button> -->
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <button type="submit" class="btn btn-default">登录</button>
+                                </div>
+                            </div>
+                        </form>
+                    </li>
+
+                </ul>
+
+                <!-- 297 249 -->
+                <div class="well well-lg">
+                    <img class="img4" src="images/02.jpg">
+                </div>
+                <div>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <h2>24小时热议</h2>
+                        </li>
+                        <li class="list-group-item">
+                        </li>
+                        <li class="list-group-item">
+                        </li>
+                        <li class="list-group-item">
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <script typle="text/javascript">
+        var img1 = document.getElementById('img1');
+
+        function add() {
+            setInterval(function () {
+                for (var i = 1; i <= 2; i++) {
+                    img1.setAttribute("src", "images/0" + i + ".jpg");
+
+                }
+            }, 1000)
+        }
+        add();
+    </script>
+
+</body>
+
+</html>
